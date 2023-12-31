@@ -1,0 +1,100 @@
+.data-container{
+    margin-top: 50px;
+    color: rgb(14, 251, 255);
+    display: flex;
+    justify-content: center;
+}
+
+.element{
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.data{
+    font-size: 34px;
+    font-weight: 400;
+}
+
+.text{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.icon{
+    margin-top: 10px;
+}
+
+body {
+    background-image: url("https://imgs.search.brave.com/kOkah4SA-_fgYkS_f0Q5MMW9YDq0WouDcihMD932bNM/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZS5zaHV0dGVyc3Rv/Y2suY29tL21vc2Fp/Y18yNTAvOTA5MTY2/LzE5MzQ5MTIyMS9z/dG9jay1waG90by1z/a3ktY2xvdWRzLTE5/MzQ5MTIyMS5qcGc");
+    background-size: cover; 
+    margin: 0; 
+    padding: 0; 
+  }
+
+.container {
+    width: 700px;
+    height: 800px;
+    margin: auto;
+    margin-top: 75px;
+    border-radius: 12px;
+    background-image: url("https://imgs.search.brave.com/9hYZc8Mgng0AcHSWigi6pQcOV1k4bUZU9Q7WzrNG9Rc/rs:fit:500:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAyLzE1LzA1Lzgx/LzM2MF9GXzIxNTA1/ODEzN19ZbHBJNDc5/Mm41WU9zS1NXWnlu/Rk5YTm9EblJ3cEhs/RC5qcGc");
+    background-size: cover; 
+    background-position: center; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+  }
+
+.top-bar{
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    padding-top: 60px;
+}
+.top-bar input{
+    display: flex;
+    width: 400px;
+    height: 80px;
+    background: rgb(194, 194, 194);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 5px;
+    color: rgb(47, 47, 47);
+    font-size: 20px;
+    font-weight:400;
+    
+}
+
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    background:rgb(194, 194, 194)
+    
+}
+.weather-image{
+    margin-top: 29px;
+    display: flex;
+    justify-content: center;
+}
+
+.weather-temp{
+    display:flex;
+    justify-content: center;
+    color: rgb(0, 221, 255);
+    font-size: 120px;
+    font-weight: 400;
+}
+
+.weather-location{
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 247, 255);
+    font-size: 60px;
+    font-weight: 400;
+}
+
